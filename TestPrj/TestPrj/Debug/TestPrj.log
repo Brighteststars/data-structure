@@ -1,0 +1,53 @@
+﻿生成启动时间为 2017/10/5 星期四 10:13:33。
+     1>项目“D:\Documents\Visual Studio 2013\Projects\TestPrj\TestPrj\TestPrj.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AVL.cpp BTree.cpp main.cpp RedBlack.cpp Vector.cpp
+         Vector.cpp
+         RedBlack.cpp
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\redblack.cpp(3): error C2143: 语法错误 : 缺少“;”(在“template”的前面)
+         main.cpp
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\main.cpp(13): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 参见“strcpy”的声明
+         AVL.cpp
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17): error C2059: 语法错误:“)”
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17): error C2059: 语法错误:“.”
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17): error C2143: 语法错误 : 缺少“)”(在“.”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17): error C2059: 语法错误:“-”
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17): error C2143: 语法错误 : 缺少“;”(在“.”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17): error C2086: “int *g”: 重定义
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(17) : 参见“g”的声明
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(18): error C2059: 语法错误:“break”
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(19): error C2059: 语法错误:“}”
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(19): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(21): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(21): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(24): error C2059: 语法错误:“}”
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(24): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(26): error C2059: 语法错误:“}”
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(26): error C2143: 语法错误 : 缺少“;”(在“}”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(28): error C2899: 不能在模板声明之外使用类型名称
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(29): error C2065: “T”: 未声明的标识符
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(29): error C2923: “AVL”: 对于参数“T”，“T”不是有效的 模板 类型变量
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(29): error C2955: “AVL”: 使用 类 模板 需要 模板 参数列表
+                 d:\documents\visual studio 2013\projects\testprj\testprj\avl.h(19) : 参见“AVL”的声明
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(30): error C2143: 语法错误 : 缺少“;”(在“{”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(30): error C2143: 语法错误 : 缺少“)”(在“;”的前面)
+     1>d:\documents\visual studio 2013\projects\testprj\testprj\avl.cpp(30): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+         正在生成代码...
+         正在编译...
+         BTree.cpp
+         正在生成代码...
+     1>已完成生成项目“D:\Documents\Visual Studio 2013\Projects\TestPrj\TestPrj\TestPrj.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:07.51
